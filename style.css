@@ -5,7 +5,11 @@
         background: lightgray;}
 
 /*header of website*/
-header{background:linear-gradient(green,black);
+header{background:green; /* For browsers that do not support gradients */
+          background: -webkit-linear-gradient(green, white); /* For Safari 5.1 to 6.0 */
+          background: -o-linear-gradient(green, white); /* For Opera 11.1 to 12.0 */
+          background: -moz-linear-gradient(green, white); /* For Firefox 3.6 to 15 */
+          background: linear-gradient(green, white); /* Standard syntax */
         width:100%;
          height: 200px; 
          text-align: center;
@@ -46,7 +50,7 @@ header{background:linear-gradient(green,black);
 /* Change the link color to #111 (black) on hover */
   #nav li a:hover {
    
-    background-color:#00310c;
+    background:linear-gradient(green,white);
 }
 
 /*end of navigation bar*/
@@ -59,7 +63,7 @@ header{background:linear-gradient(green,black);
              /*image of section*/
  #jquery marquee {
         
-        background-color: black;
+        background-color: green;
         color : white;
         width: 80%;
         height: 50px;
@@ -164,11 +168,112 @@ header{background:linear-gradient(green,black);
                 }
   .container2 li a:hover{color: white;}
   
+  
+  
+  
+  
+      /* another  order list containing images*/
+ #content ul {
+       list-style-type: none;
+        
+       
+   }             
+ .content {margin-left:170px;
+ 
+           text-align: center;
+        
+          }
+           
+ .content table  {width:80%;
+ 
+                 }
+                 
+     .image3{margin-left:50px;
+             width:250px;
+             border: 5px solid beige;
+             border-color: green;
+             
+            }
+             .image4{margin-left:50px;
+             width:250px;
+             border: 5px solid beige;
+             border-color: green;
+             
+            }
+   .image5{margin-left:50px;
+             width:250px;
+             border: 5px solid beige;
+             border-color: green;
+             
+            }
+        
+      
+ 
+ /* list contain information about admission*/
+ 
+ .container{
+                float: left;
+               width: 15%;
+               margin-left: 210px;
+            }
+               
+ .container ul{padding-left: 18px;
+                color: green;
+ 
+                width: 100%;
+                height: 150px;
+              }
+ .container li a {color:green;}       
+ .container li a:hover{color: white;}
+ 
+  /* list2 contain information about admission*/
+ .container1{
+               width: 17%;
+               position: absolute;
+               margin-bottom: 15px;
+               margin-left: 520px;
+            }
+               
+               
+ .container1 ul{padding-left: 18px;
+                    color: green;
+                    width: 100%;
+                    height: 180px;
+                    
+                }
+      .container1 li a {color:green;}                  
+    .container1 li a:hover{color: white;}   
+    
+     /* list3 contain information about admission*/             
+                    
+  .container2{
+                        position: relative;
+                        width: 17%;
+                        margin-bottom: 15px;
+                        margin-top: 0px;
+                        margin-left: 850px;
+                        
+               }
+               
+ .container2 li a {color:green;}                  
+ .container2 ul{padding-left: 18px;
+                    color: green;
+                    width: 100%;
+                    height: 180px;
+                    
+                }
+  .container2 li a:hover{color: white;}
+ 
+  
   /*footer of the website*/
  
 footer{width:100%;
         height: 300px;
-        background:linear-gradient(green,black);
+         background:green; /* For browsers that do not support gradients */
+          background: -webkit-linear-gradient(green, white); /* For Safari 5.1 to 6.0 */
+          background: -o-linear-gradient(green, white); /* For Opera 11.1 to 12.0 */
+          background: -moz-linear-gradient(green, white); /* For Firefox 3.6 to 15 */
+          background: linear-gradient(green, white); /* Standard syntax */
         }
         
       /*footer containing list*/  
